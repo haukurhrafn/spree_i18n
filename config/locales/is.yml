@@ -32,7 +32,7 @@ is:
         verification_value: CVV númer
         year: Ár
       spree/inventory_unit:
-        state: Fylki
+        state: Staða
       spree/line_item:
         price: Verð
         quantity: Magn
@@ -52,7 +52,7 @@ is:
         payment_state: Staða greiðslu
         shipment_state: Staða afhendingar
         special_instructions: Sérstakar leiðbeiningar
-        state: Fylki
+        state: Staða
         total: Samtals
       spree/order/bill_address:
         address1: Heimilisfang greiðanda
@@ -86,10 +86,10 @@ is:
         tax_category: VSK flokkur
       spree/promotion:
         advertise: Auglýsa
-        code: Code
-        description: Description
+        code: Kóði
+        description: Lýsing
         event_name: Event Name
-        expires_at: Expires At
+        expires_at: Rennur út
         name: Name
         path: Path
         starts_at: Starts At
@@ -329,8 +329,8 @@ is:
         other: "%{count} errors prohibited this %{resource} from being saved:"
   spree:
     filter: Filter
-    quick_search: Quick Search . . .
-    abbreviation: Abbreviation
+    quick_search: Leita...
+    abbreviation: Skammstöfun
     accept:
     acceptance_errors:
     acceptance_status:
@@ -455,7 +455,7 @@ is:
     base_percent:
     bill_address: Bill Address
     billing: Billing
-    billing_address: Billing Address
+    billing_address: Heimilisfang greiðanda
     both: Both
     calculated_reimbursements:
     calculator: Calculator
@@ -474,13 +474,13 @@ is:
     card_number: Card Number
     card_type:
     card_type_is: Card type is
-    cart: Basket
+    cart: Karfa
     cart_subtotal:
     categories: Categories
     category: Category
     charged:
     check_for_spree_alerts: Check for Spree alerts
-    checkout: Checkout
+    checkout: Klára pöntun
     choose_a_customer: Choose a customer
     choose_a_taxon_to_sort_products_for:
     choose_currency: Choose Currency
@@ -609,7 +609,7 @@ is:
         not_first_order:
     email: Email
     empty: Empty
-    empty_cart: Empty Basket
+    empty_cart: Tæma körfu
     enable_mail_delivery: Enable Mail Delivery
     end: End
     ending_in: Ending in
@@ -689,7 +689,7 @@ is:
     implement_requires_manual_intervention:
     inactive:
     incl:
-    included_in_price: Included in Price
+    included_in_price: Innifalið í verði
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete:
     info_number_of_skus_not_shown:
@@ -849,7 +849,7 @@ is:
     or: or
     or_over_price: "%{price} or over"
     order: Order
-    order_adjustments: Order adjustments
+    order_adjustments: Breytingar á pöntun
     order_already_updated:
     order_approved:
     order_canceled:
@@ -883,7 +883,7 @@ is:
       cart: cart
       complete: complete
       confirm: confirm
-      considered_risky:
+      considered_risky: Áhættumat
       delivery: delivery
       payment: payment
       resumed: resumed
@@ -891,7 +891,7 @@ is:
     order_summary: Order Summary
     order_sure_want_to: Are you sure you want to %{event} this order?
     order_total: Order Total
-    order_updated: Order Updated
+    order_updated: Pöntun uppfærð
     orders: Orders
     other_items_in_other:
     out_of_stock: Vara uppseld
@@ -918,7 +918,7 @@ is:
     payment_state: Payment State
     payment_states:
       balance_due: balance due
-      checkout: checkout
+      checkout: Klára pöntun
       completed: completed
       credit_owed: credit owed
       failed: failed
@@ -950,7 +950,7 @@ is:
     process: Process
     product: Product
     product_details: Product Details
-    product_has_no_description: This product has no description
+    product_has_no_description: Vörulýsingu vantar
     product_not_available_in_this_currency: This product is not available in the selected currency.
     product_properties: Product Properties
     product_rule:
@@ -1022,7 +1022,7 @@ is:
     prototypes: Prototypes
     provider: Provider
     provider_settings_warning: If you are changing the provider type, you must save first before you can edit the provider settings
-    qty: Qty
+    qty: Magn
     quantity: Quantity
     quantity_returned: Quantity Returned
     quantity_shipped: Quantity Shipped
@@ -1090,7 +1090,7 @@ is:
     review: Review
     risk:
     risk_analysis:
-    risky:
+    risky: Áhættumat
     rma_credit: RMA Credit
     rma_number: RMA Number
     rma_value: RMA Value
@@ -1100,7 +1100,7 @@ is:
     sales_total: Sales Total
     sales_total_description: Sales Total For All Orders
     sales_totals: Sales Totals
-    save_and_continue: Save and Continue
+    save_and_continue: Vista og halda áfram
     save_my_address:
     say_no: false
     say_yes: true
@@ -1148,7 +1148,7 @@ is:
     shipments: Shipments
     shipped: Shipped
     shipping: Delivery
-    shipping_address: Delivery Address
+    shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
     shipping_flat_rate_per_item: Flat rate per package item
@@ -1160,12 +1160,12 @@ is:
     shipping_price_sack: Price sack
     shipping_total:
     shop_by_taxonomy: Shop by %{taxonomy}
-    shopping_cart: Shopping Basket
+    shopping_cart: Karfan þín
     show: Show
     show_active: Show Active
     show_deleted: Show Deleted
     show_only_complete_orders: Only show complete orders
-    show_only_considered_risky:
+    show_only_considered_risky: Only show risky orders
     show_rate_in_label: Show rate in label
     sku: SKU
     skus:
@@ -1239,7 +1239,7 @@ is:
     successfully_signed_up_for_analytics: Successfully signed up for Spree Analytics
     successfully_updated: "%{resource} has been successfully updated!"
     summary:
-    tax: Tax
+    tax: Skattur
     tax_categories: Tax Categories
     tax_category: Tax Category
     tax_code:
@@ -1300,11 +1300,11 @@ is:
     unlock: Unlock
     unrecognized_card_type: Unrecognised card type
     unshippable_items: Unshippable Items
-    update: Update
+    update: Uppfæra
     updating: Updating
     usage_limit: Usage Limit
     use_app_default:
-    use_billing_address: Use Billing Address
+    use_billing_address: Nota heimilisfang greiðanda
     use_new_cc: Use a new card
     use_s3: Use Amazon S3 For Images
     user: User
@@ -1326,13 +1326,13 @@ is:
     version: Version
     void: Void
     weight: Weight
-    what_is_a_cvv: What is a (CVV) Credit Card Code?
-    what_is_this: What's This?
+    what_is_a_cvv: Hvað er (CVV) kóði?
+    what_is_this: Hvað er þetta?
     width: Width
     year: Year
-    you_have_no_orders_yet: You have no orders yet.
-    your_cart_is_empty: Your basket is empty
-    your_order_is_empty_add_product: Your order is empty, please search for and add a product above
+    you_have_no_orders_yet: Engar pantanir (ennþá!)
+    your_cart_is_empty: Karfan þín er tóm
+    your_order_is_empty_add_product: Þu hefur ekki pantað neitt, vinsamlegast bættu við vörum í körfuna
     zip: Post Code
     zipcode: Post Code
     zone: Zone
