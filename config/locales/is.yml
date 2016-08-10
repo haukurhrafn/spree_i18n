@@ -501,8 +501,8 @@ is:
     configurations: Configurations
     confirm: Confirm
     confirm_delete: Confirm Deletion
-    confirm_password: Password Confirmation
-    continue: Continue
+    confirm_password: Staðfesta lykilorð
+    continue: Halda áfram
     continue_shopping: Halda áfram að versla
     cost_currency: Cost Currency
     cost_price: Cost Price
@@ -529,8 +529,8 @@ is:
     coupon_code_not_eligible: This coupon code is not eligible for this order
     coupon_code_not_found: The coupon code you entered doesn't exist. Please try again.
     coupon_code_unknown_error:
-    create: Create
-    create_a_new_account: Create a new account
+    create: Stofna
+    create_a_new_account: Stofna aðgang
     create_new_order:
     create_reimbursement:
     created_at: Created At
@@ -607,8 +607,8 @@ is:
         no_user_or_email_specified:
         no_user_specified:
         not_first_order:
-    email: Email
-    empty: Empty
+    email: Netfang
+    empty: Tóm
     empty_cart: Tæma körfu
     enable_mail_delivery: Enable Mail Delivery
     end: End
@@ -658,7 +658,7 @@ is:
     flat_percent: Flat Percent
     flat_rate_per_order: Flat Rate (per order)
     flexible_rate: Flexible Rate
-    forgot_password: Forgot Password
+    forgot_password: Gleymt lykilorð
     free_shipping: Free Shipping
     free_shipping_amount:
     front_end: Front End
@@ -670,7 +670,7 @@ is:
     google_analytics: Google Analytics
     google_analytics_id: Analytics ID
     guest_checkout: Guest Checkout
-    guest_user_account: Checkout as a Guest
+    guest_user_account: Klára pöntun án innskráningar
     has_no_shipped_units: has no shipped units
     height: Height
     hide_cents: Hide pence
@@ -688,7 +688,7 @@ is:
     implement_eligible_for_return:
     implement_requires_manual_intervention:
     inactive:
-    incl: Innifalið (Sendingarkostnaður?)
+    incl: Þar af VSK
     included_in_price: Innifalið í verði
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete:
@@ -713,7 +713,7 @@ is:
     iso_name: Iso Name
     item: Vara
     item_description: Vörulýsing
-    item_total: Item Total
+    item_total: Samtals
     item_total_rule:
       operators:
         gt: greater than
@@ -742,7 +742,7 @@ is:
     logged_in_succesfully: Logged in successfully
     logged_out: You have been logged out.
     login: Login
-    login_as_existing: Log In as Existing Customer
+    login_as_existing: Innskráning 
     login_failed: Login authentication failed.
     login_name: Login
     logout: Logout
@@ -846,14 +846,14 @@ is:
     option_values: Option Values
     optional: Optional
     options: Options
-    or: or
+    or: eða
     or_over_price: "%{price} or over"
     order: Order
-    order_adjustments: Breytingar á pöntun
+    order_adjustments: 
     order_already_updated:
     order_approved:
     order_canceled:
-    order_details: Order Details
+    order_details: Sundurliðun á pöntun
     order_email_resent: Order Email Resent
     order_information: Order Information
     order_mailer:
@@ -901,7 +901,7 @@ is:
       next_page: next page »
       previous_page: "« previous page"
       truncate: "…"
-    password: Password
+    password: Lykilorð
     paste: Paste
     path: Path
     pay: pay
@@ -917,15 +917,15 @@ is:
     payment_processor_choose_link: our payments page
     payment_state: Greiðslustaða
     payment_states:
-      balance_due: balance due
+      balance_due: Ógreitt
       checkout: Klára pöntun
-      completed: completed
-      credit_owed: credit owed
-      failed: failed
-      paid: paid
-      pending: pending
-      processing: processing
-      void: void
+      completed: Fullunnin
+      credit_owed: Innistæða
+      failed: Tókst ekki
+      paid: Greitt
+      pending: Í biðröð
+      processing: Í vinnslu
+      void: ógilt
     payment_updated: Payment Updated
     payments: Payments
     pending:
@@ -1062,13 +1062,13 @@ is:
     reimbursements:
     reject:
     rejected:
-    remember_me: Remember me
-    remove: Remove
-    rename: Rename
+    remember_me: Muna mig
+    remove: Fjarlægja
+    rename: Nefna á nýtt
     report:
-    reports: Reports
-    resend: Resend
-    reset_password: Reset my password
+    reports: Skýrslur
+    resend: Endursenda
+    reset_password: Endurstill lykilorð
     response_code: Response Code
     resume: resume
     resumed: Resumed
@@ -1140,14 +1140,14 @@ is:
       backorder: biðpöntun
       canceled: hætt við 
       partial: að hluta
-      pending: í vinnslu
+      pending: í biðröð
       ready: tilbúin
       shipped: send
     shipment_transfer_error:
     shipment_transfer_success:
     shipments: Sendingar
     shipped: Send
-    shipping: Delivery
+    shipping: Sending
     shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
