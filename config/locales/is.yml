@@ -3,7 +3,7 @@ is:
     attributes:
       spree/address:
         address1: Heimilisfang
-        address2: Heimilisfang (Framh.)
+        address2: Nánnari upplýsingar (Hæð/bjalla o.s.frv.)
         city: Borg
         country: Land
         firstname: Fornafn
@@ -317,8 +317,8 @@ is:
       signed_up: Welcome! You have signed up successfully.
       updated: You updated your account successfully.
     user_sessions:
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      signed_in: Þú ert núna innskráður 
+      signed_out: Þú ert búinn að skrá þig út. 
   errors:
     messages:
       already_confirmed: was already confirmed
@@ -475,7 +475,7 @@ is:
     card_type:
     card_type_is: Card type is
     cart: Karfa
-    cart_subtotal:
+    cart_subtotal: Samtals í körfu
     categories: Categories
     category: Category
     charged:
@@ -503,7 +503,7 @@ is:
     confirm_delete: Confirm Deletion
     confirm_password: Password Confirmation
     continue: Continue
-    continue_shopping: Continue shopping
+    continue_shopping: Halda áfram að versla
     cost_currency: Cost Currency
     cost_price: Cost Price
     could_not_connect_to_jirafe: Could not connect to Jirafe to sync data. This will be automatically retried later.
@@ -564,7 +564,7 @@ is:
         site_id: Site ID
         token: Token
       jirafe_settings_updated: Jirafe Settings have been updated.
-    date: Date
+    date: Dagsetning
     date_completed: Date Completed
     date_picker:
       first_day: 0
@@ -577,7 +577,7 @@ is:
     default_tax_zone: Default Tax Zone
     delete: Delete
     deleted_variants_present:
-    delivery: Delivery
+    delivery: Sendingarmáti
     depth: Depth
     description: Description
     destination: Destination
@@ -588,8 +588,8 @@ is:
     display: Display
     display_currency: Display currency
     doesnt_track_inventory:
-    edit: Edit
-    editing_resource:
+    edit: Breyta
+    editing_resource: 
     editing_rma_reason:
     editing_user: Editing User
     eligibility_errors:
@@ -688,7 +688,7 @@ is:
     implement_eligible_for_return:
     implement_requires_manual_intervention:
     inactive:
-    incl:
+    incl: Innifalið (Sendingarkostnaður?)
     included_in_price: Innifalið í verði
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete:
@@ -711,8 +711,8 @@ is:
     inventory_state:
     is_not_available_to_shipment_address: is not available to shipment address
     iso_name: Iso Name
-    item: Item
-    item_description: Item Description
+    item: Vara
+    item_description: Vörulýsing
     item_total: Item Total
     item_total_rule:
       operators:
@@ -768,8 +768,8 @@ is:
     month: Month
     more: More
     move_stock_between_locations: Move Stock Between Locations
-    my_account: My Account
-    my_orders: My Orders
+    my_account: Mín síða
+    my_orders: Pantanarnir mínar
     name: Name
     name_on_card:
     name_or_sku: Name or SKU
@@ -890,13 +890,13 @@ is:
       returned: returned
     order_summary: Order Summary
     order_sure_want_to: Are you sure you want to %{event} this order?
-    order_total: Order Total
+    order_total: Samtals
     order_updated: Pöntun uppfærð
     orders: Orders
     other_items_in_other:
     out_of_stock: Vara uppseld
     overview: Overview
-    package_from: package from
+    package_from: Sendingarmáti 
     pagination:
       next_page: next page »
       previous_page: "« previous page"
@@ -908,14 +908,14 @@ is:
     payment: Payment
     payment_could_not_be_created:
     payment_identifier:
-    payment_information: Payment Information
-    payment_method: Payment Method
+    payment_information: Greiðsluupplýsingar
+    payment_method: Greiðslumáti
     payment_method_not_supported:
     payment_methods: Payment Methods
     payment_processing_failed: Payment could not be processed, please check the details you entered
     payment_processor_choose_banner_text: If you need help choosing a payment processor, please visit
     payment_processor_choose_link: our payments page
-    payment_state: Payment State
+    payment_state: Greiðslustaða
     payment_states:
       balance_due: balance due
       checkout: Klára pöntun
@@ -944,7 +944,7 @@ is:
     presentation: Presentation
     previous: Previous
     previous_state_missing:
-    price: Price
+    price: Verð
     price_range: Price Range
     price_sack: Price Sack
     process: Process
@@ -1026,7 +1026,7 @@ is:
     quantity: Quantity
     quantity_returned: Quantity Returned
     quantity_shipped: Quantity Shipped
-    quick_search:
+    quick_search: Leita
     rate: Rate
     reason: Reason
     receive: receive
@@ -1135,18 +1135,18 @@ is:
         thanks: Thank you for your business.
         track_information: 'Tracking Information: %{tracking}'
         track_link: 'Tracking Link: %{url}'
-    shipment_state: Shipment State
+    shipment_state: Staða afhendingar
     shipment_states:
-      backorder: backorder
-      canceled:
-      partial: partial
-      pending: pending
-      ready: ready
-      shipped: shipped
+      backorder: biðpöntun
+      canceled: hætt við 
+      partial: að hluta
+      pending: í vinnslu
+      ready: tilbúin
+      shipped: send
     shipment_transfer_error:
     shipment_transfer_success:
-    shipments: Shipments
-    shipped: Shipped
+    shipments: Sendingar
+    shipped: Send
     shipping: Delivery
     shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
@@ -1213,7 +1213,7 @@ is:
       void:
     states: Counties
     states_required: County Required
-    status: Status
+    status: Staða pöntunar
     stock:
     stock_location: Stock Location
     stock_location_info: Stock location info
@@ -1243,7 +1243,7 @@ is:
     tax_categories: Tax Categories
     tax_category: Tax Category
     tax_code:
-    tax_included:
+    tax_included: VSK innifalið
     tax_rate_amount_explanation: Tax rates are a decimal amount to aid in calculations, (i.e. if the tax rate is 5% then enter 0.05)
     tax_rates: Tax Rates
     taxon: Taxon
@@ -1277,7 +1277,7 @@ is:
     tiers:
     time: Time
     to_add_variants_you_must_first_define: To add variants, you must first define
-    total: Total
+    total: Samtals
     total_per_item:
     total_pre_tax_refund:
     total_price:
