@@ -738,10 +738,10 @@ is:
     location: Location
     lock: Lock
     log_entries:
-    logged_in_as: Logged in as
-    logged_in_succesfully: Logged in successfully
-    logged_out: You have been logged out.
-    login: Login
+    logged_in_as: Innskráður sem
+    logged_in_succesfully: Innskráning tókst
+    logged_out: Þú hefur verið útskráður
+    login: Skrá inn
     login_as_existing: Innskráning 
     login_failed: Login authentication failed.
     login_name: Login
