@@ -474,7 +474,7 @@ is:
     card_number: Card Number
     card_type:
     card_type_is: Card type is
-    cart: Karfa
+    cart: BOXIÐ þitt
     cart_subtotal: Samtals í körfu
     categories: Categories
     category: Category
@@ -1160,7 +1160,7 @@ is:
     shipping_price_sack: Price sack
     shipping_total:
     shop_by_taxonomy: Shop by %{taxonomy}
-    shopping_cart: Karfan þín
+    shopping_cart: Boxið þitt
     show: Show
     show_active: Show Active
     show_deleted: Show Deleted
@@ -1331,8 +1331,8 @@ is:
     width: Width
     year: Year
     you_have_no_orders_yet: Engar pantanir (ennþá!)
-    your_cart_is_empty: Karfan þín er tóm
-    your_order_is_empty_add_product: Þu hefur ekki pantað neitt, vinsamlegast bættu við vörum í körfuna
+    your_cart_is_empty: Boxið þitt er tómt
+    your_order_is_empty_add_product: Þu hefur ekki pantað neitt, vinsamlegast bættu við vörum í boxið þitt
     zip: Post Code
     zipcode: Post Code
     zone: Zone
