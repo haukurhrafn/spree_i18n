@@ -391,6 +391,12 @@ is:
     user_sessions:
       signed_in: Innskráning tókst. 
       signed_out: Útskráning tókst. 
+    spree_user:
+      signed_in: Innskráning tókst. 
+      signed_out: Útskráning tókst.
+    passwords:
+        spree_user:
+            send_instructions: Upplýsingar um hvernig endursetja eigi lykilorð hafa verið sendar í tölvupósti
 
   errors:
     messages:
@@ -596,7 +602,7 @@ is:
     confirm_delete: Confirm Deletion
     confirm_password: Password Confirmation
     continue: Áfram
-    continue_shopping: Halda áfram að versla2
+    continue_shopping: Halda áfram að versla
     cost_currency: Cost Currency
     cost_price: Cost Price
     could_not_connect_to_jirafe: Could not connect to Jirafe to sync data. This will be automatically retried later.
@@ -623,7 +629,7 @@ is:
     coupon_code_not_found: The coupon code you entered doesn't exist. Please try again.
     coupon_code_unknown_error: This coupon code could not be applied to the cart at this time.
     create: Create
-    create_a_new_account: Create a new account
+    create_a_new_account: Nýskráning
     create_new_order: Create new order
     create_reimbursement: Create reimbursement
     created_at: Created At
@@ -674,7 +680,7 @@ is:
     discontinued_variants_present: Some line items in this order have products that are no longer available.
     delivery: Delivery
     depth: Depth
-    details: Details
+    details: Nánar
     description: Description
     destination: Destination
     destroy: Destroy
@@ -753,7 +759,7 @@ is:
     flat_percent: Flat Percent
     flat_rate_per_order: Flat Rate
     flexible_rate: Flexible Rate
-    forgot_password: Forgot Password?
+    forgot_password: Gleymt lykilorð?
     free_shipping: Free Shipping
     free_shipping_amount: "-"
     front_end: Front End
@@ -787,14 +793,14 @@ is:
     implement_requires_manual_intervention: "Must implement #requires_manual_intervention? for your EligibilityValidator."
     inactive: Inactive
     incl: incl.
-    included_in_price: Included in Price
+    included_in_price: Innifalið
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete: Incomplete
     info_product_has_multiple_skus: "This product has %{count} variants:"
     info_number_of_skus_not_shown:
       one: "and one other"
       other: "and %{count} others"
-    instructions_to_reset_password: Please enter your email on the form below
+    instructions_to_reset_password: Vinsamlegast sláðu inn tölvupóstfangið hér fyrir neðan
     insufficient_stock: Insufficient stock available, only %{on_hand} remaining
     insufficient_stock_lines_present: Some line items in this order have insufficient quantity.
     intercept_email_address: Intercept Email Address
@@ -812,7 +818,7 @@ is:
     is_not_available_to_shipment_address: is not available to shipment address
     iso_name: Iso Name
     issued_on: Issued On
-    item: Item
+    item: Vara
     item_description: Vörulýsing
     item_total: Samtals vörur
     item_total_rule:
@@ -842,13 +848,13 @@ is:
     log_entries: "Log Entries"
     logs: "Logs"
     logged_in_as: Logged in as
-    logged_in_succesfully: Logged in successfully
-    logged_out: You have been logged out.
+    logged_in_succesfully: Innskráning tókst
+    logged_out: Þú hefur afskráð þig. 
     login: Login
-    login_as_existing: Login as Existing Customer
-    login_failed: Login authentication failed.
-    login_name: Login
-    logout: Logout
+    login_as_existing: Nú þegar notandi. Skráðu þig inn hér
+    login_failed: Ekki tókst að skrá þig inn. 
+    login_name: Skrá inn
+    logout: Útskráning
     look_for_similar_items: Look for similar items
     make_refund: Make refund
     make_sure_the_above_reimbursement_amount_is_correct: Make sure the above reimbursement amount is correct
@@ -957,7 +963,7 @@ is:
     option_values: Option Values
     optional: Optional
     options: Options
-    or: or
+    or: eða
     or_over_price: ! '%{price} or over'
     order: Order
     order_adjustments: Sundurliðun ofl. 
@@ -998,7 +1004,7 @@ is:
       payment: payment
       resumed: resumed
       returned: returned
-    order_summary: Order Summary
+    order_summary: Samantekt á pöntun
     order_sure_want_to: Are you sure you want to %{event} this order?
     order_total: Samtals
     order_updated: Order Updated
@@ -1054,7 +1060,7 @@ is:
     presentation: Presentation
     previous: Previous
     previous_state_missing: "n/a"
-    price: Price
+    price: Verð
     price_range: Price Range
     price_sack: Price Sack
     process: Process
@@ -1134,7 +1140,7 @@ is:
     prototypes: Prototypes
     provider: Provider
     provider_settings_warning: If you are changing the provider type, you must save first before you can edit the provider settings
-    qty: Qty
+    qty: Magn
     quantity: Quantity
     quantity_returned: Quantity Returned
     quantity_shipped: Quantity Shipped
@@ -1166,8 +1172,8 @@ is:
     reimbursements: Reimbursements
     reject: Reject
     rejected: Rejected
-    remember_me: Remember me
-    remove: Remove
+    remember_me: Muna mig
+    remove: Fjarlægja
     rename: Rename
     report: Report
     reports: Reports
@@ -1220,7 +1226,7 @@ is:
     sales_total: Sales Total
     sales_total_description: Sales Total For All Orders
     sales_totals: Sales Totals
-    save_and_continue: Vista og halda áfram3
+    save_and_continue: Vista og halda áfram
     save_my_address: Save my address
     saving: Saving
     say_no: 'No'
@@ -1316,7 +1322,7 @@ is:
       awaiting: Awaiting
       awaiting_return: Awaiting return
       backordered: Back ordered
-      cart: Cart
+      cart: BOXIÐ ÞITT
       canceled: Canceled
       checkout: Checkout
       confirm: Confirm
@@ -1489,12 +1495,12 @@ is:
     version: Version
     void: Void
     weight: Weight
-    what_is_a_cvv: What is a (CVV) Credit Card Code?
-    what_is_this: What's This?
+    what_is_a_cvv: Hvað er CVV kóði?
+    what_is_this: Hvað er þetta?
     width: Width
     year: Year
     you_have_no_orders_yet: You have no orders yet
-    your_cart_is_empty: Your cart is empty
+    your_cart_is_empty: BOXIÐ þitt er tómt
     your_order_is_empty_add_product: Your order is empty, please search for and add a product above
     zip: Zip
     zipcode: Zip Code
