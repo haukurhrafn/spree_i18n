@@ -416,8 +416,8 @@ is:
     account_updated: Account updated
     action: Action
     actions:
-      cancel: Cancel
-      continue: Continue
+      cancel: Hætta við 
+      continue: Halda áfram1
       create: Create
       destroy: Destroy
       edit: Edit
@@ -573,13 +573,13 @@ is:
     categories: Categories
     category: Category
     charged: Charged
-    checkout: Checkout
+    checkout: Klára pöntun
     choose_a_customer: Choose a customer
     choose_a_taxon_to_sort_products_for: "Choose a taxon to sort products for"
     choose_currency: Choose Currency
     choose_dashboard_locale: Choose Dashboard Locale
     choose_location: Choose location
-    city: City
+    city: Sveitarfélag
     clear_cache: Clear Cache
     clear_cache_ok: Cache was flushed
     clear_cache_warning: Clearing cache will temporarily reduce the performance of your store.
@@ -595,8 +595,8 @@ is:
     confirm: Confirm
     confirm_delete: Confirm Deletion
     confirm_password: Password Confirmation
-    continue: Continue
-    continue_shopping: Continue shopping
+    continue: Áfram
+    continue_shopping: Halda áfram að versla2
     cost_currency: Cost Currency
     cost_price: Cost Price
     could_not_connect_to_jirafe: Could not connect to Jirafe to sync data. This will be automatically retried later.
@@ -604,7 +604,7 @@ is:
     could_not_create_stock_movement: There was a problem saving this stock movement. Please try again.
     count_on_hand: Count On Hand
     countries: Countries
-    country: Country
+    country: Land
     country_based: Country Based
     country_name: Name
     country_names:
@@ -684,7 +684,7 @@ is:
     dismiss_banner: No. Thanks! I'm not interested, do not display this message again
     display: Display
     doesnt_track_inventory: It doesn't track inventory
-    edit: Edit
+    edit: Breyta
     editing_resource: 'Editing %{resource}'
     editing_rma_reason: Editing RMA Reason
     editing_user: Editing User
@@ -705,7 +705,7 @@ is:
         not_first_order: This coupon code can only be applied to your first order.
     email: Email
     empty: Empty
-    empty_cart: Empty Cart
+    empty_cart: Tæma BOXIÐ þitt
     enable_mail_delivery: Enable Mail Delivery
     end: End
     ending_in: Ending in
@@ -721,7 +721,7 @@ is:
     events:
       spree:
         cart:
-          add: Add to cart
+          add: Bæta við í BOXIÐ þitt
         checkout:
           coupon_code_added: Coupon code added
         content:
@@ -813,8 +813,8 @@ is:
     iso_name: Iso Name
     issued_on: Issued On
     item: Item
-    item_description: Item Description
-    item_total: Item Total
+    item_description: Vörulýsing
+    item_total: Samtals vörur
     item_total_rule:
       operators:
         gt: greater than
@@ -872,8 +872,8 @@ is:
     month: Month
     more: More
     move_stock_between_locations: Move Stock Between Locations
-    my_account: My Account
-    my_orders: My Orders
+    my_account: Mín síða
+    my_orders: Pantanarnir mínar
     name: Name
     name_on_card: Name on card
     name_or_sku: Name or SKU (enter at least first 3 characters of product name)
@@ -960,7 +960,7 @@ is:
     or: or
     or_over_price: ! '%{price} or over'
     order: Order
-    order_adjustments: Order adjustments
+    order_adjustments: Sundurliðun ofl. 
     order_already_updated: The order has already been updated.
     order_approved: Order approved
     order_canceled: Order canceled
@@ -990,7 +990,7 @@ is:
       address: address
       awaiting_return: awaiting return
       canceled: canceled
-      cart: cart
+      cart: BOXIÐ þitt
       considered_risky: considered risky
       complete: complete
       confirm: confirm
@@ -1000,12 +1000,12 @@ is:
       returned: returned
     order_summary: Order Summary
     order_sure_want_to: Are you sure you want to %{event} this order?
-    order_total: Order Total
+    order_total: Samtals
     order_updated: Order Updated
     orders: Orders
     out_of_stock: Out of Stock
     overview: Overview
-    package_from: package from
+    package_from: Sending frá
     pagination:
       next_page: next page &raquo;
       previous_page: ! '&laquo; previous page'
@@ -1220,7 +1220,7 @@ is:
     sales_total: Sales Total
     sales_total_description: Sales Total For All Orders
     sales_totals: Sales Totals
-    save_and_continue: Save and Continue
+    save_and_continue: Vista og halda áfram3
     save_my_address: Save my address
     saving: Saving
     say_no: 'No'
@@ -1251,13 +1251,13 @@ is:
     shipment_details: "From %{stock_location} via %{shipping_method}"
     shipment_mailer:
       shipped_email:
-        dear_customer: Dear Customer,
-        instructions: Your order %{number} has been shipped
-        shipment_summary: Shipment Summary for order
-        shipping_method: "Shipping method: %{shipping_method}"
-        subject: Shipment Notification
-        thanks: Thank you for your business.
-        track_information: ! 'Tracking Information: %{tracking}'
+        dear_customer: Ágæti viðskiptavinur,
+        instructions: Pöntun þín númer %{number} hefur verið send
+        shipment_summary: Sendingar yfirlit fyrir pöntun
+        shipping_method: "Sendingarmát: %{shipping_method}"
+        subject: Sendingar tilkynning
+        thanks: Takk fyrir viðskiptin
+        track_information: ! 'Upplýsingar um stöðu sendingar: %{tracking}'
         track_link: "Tracking Link: %{url}"
     shipment_state: Shipment State
     shipment_states:
@@ -1288,7 +1288,7 @@ is:
         excluding_tax: "%{price} (+ %{tax_amount} %{tax_rate_name})"
     shipping_total: Shipping total
     shop_by_taxonomy: Shop by %{taxonomy}
-    shopping_cart: Shopping Cart
+    shopping_cart: Boxið þitt
     show: Show
     show_active: Show Active
     show_deleted: Show Deleted
@@ -1306,7 +1306,7 @@ is:
     ssl:
       change_protocol: "Please switch to using HTTP (rather than HTTPS) and retry this request."
     start: Start
-    state: State
+    state: Fylki1
     state_based: State Based
     states: States
     state_machine_states:
@@ -1460,7 +1460,7 @@ is:
     unlock: Unlock
     unrecognized_card_type: Unrecognized card type
     unshippable_items: Unshippable Items
-    update: Update
+    update: Uppfæra
     updating: Updating
     usage_limit: Usage Limit
     use_app_default: Use App Default
