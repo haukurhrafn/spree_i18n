@@ -352,7 +352,12 @@ is:
           attributes:
             base:
               cannot_destroy_if_attached_to_line_items: Cannot delete variants once they are attached to line items.
-
+  
+  address_book:
+    add_new_shipping_address: Bæta við viðtakanda
+    edit_shipping_address: Breyta heimilisfangi viðtakanda
+    shipping_addresses: Heimilisföng viðtakanda
+     
   devise:
     confirmations:
       confirmed: Aðgangur þinn hefur verið staðfestur. Innskráning tókst. 
@@ -365,6 +370,7 @@ is:
       timeout: Of langur tími er liðinn frá síðustu aðgerð. Vinsamlegast skráðu þig inn á ný til að halda áfram.
       unauthenticated: Innskráning er nauðsynleg til að halda áfram. 
       unconfirmed: Vinsamlegast staðfestu aðgang þinn til að halda áfram. 
+      already_authenticated: Þú ert nú þegar skráður inn
     mailer:
       confirmation_instructions:
         subject: Confirmation instructions
@@ -397,6 +403,9 @@ is:
     passwords:
         spree_user:
             send_instructions: Upplýsingar um hvernig endursetja eigi lykilorð hafa verið sendar í tölvupósti
+    sessions:
+        spree_user:
+            signed_out: Þú ert nú útskráður
 
   errors:
     messages:
@@ -551,7 +560,7 @@ is:
     base_percent: Base Percent
     bill_address: Bill Address
     billing: Billing
-    billing_address: Billing Address
+    billing_address: Heimilisfang greiðanda
     both: Both
     calculated_reimbursements: Calculated Reimbursements
     calculator: Calculator
@@ -572,10 +581,10 @@ is:
     card_number: Card Number
     card_type: Brand
     card_type_is: Card type is
-    cart: Cart
+    cart: BOXIÐ ÞITT
     cart_subtotal:
-      one: 'Subtotal (1 item)'
-      other: 'Subtotal (%{count} items)'
+      one: 'Samtals (1 stk.)'
+      other: 'Samtals (%{count} stk.)'
     categories: Categories
     category: Category
     charged: Charged
@@ -819,6 +828,7 @@ is:
     iso_name: Iso Name
     issued_on: Issued On
     item: Vara
+    item_added_to_cart: Vöru bætt í BOXIÐ
     item_description: Vörulýsing
     item_total: Samtals vörur
     item_total_rule:
@@ -879,7 +889,7 @@ is:
     more: More
     move_stock_between_locations: Move Stock Between Locations
     my_account: Mín síða
-    my_orders: Pantanarnir mínar
+    my_orders: Pantanirnar mínar
     name: Name
     name_on_card: Name on card
     name_or_sku: Name or SKU (enter at least first 3 characters of product name)
@@ -967,7 +977,7 @@ is:
     or_over_price: ! '%{price} or over'
     order: Order
     order_adjustments: Sundurliðun ofl. 
-    order_already_updated: The order has already been updated.
+    order_already_updated: Pöntunin hefur nú þegar verið uppfærð
     order_approved: Order approved
     order_canceled: Order canceled
     order_details: Order Details
@@ -1278,14 +1288,14 @@ is:
     shipments: Shipments
     shipped: Shipped
     shipping: Shipping
-    shipping_address: Shipping Address
+    shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
     shipping_flat_rate_per_item: Flat rate per package item
     shipping_flat_rate_per_order: Flat rate
     shipping_flexible_rate: Flexible Rate per package item
     shipping_instructions: Shipping Instructions
-    shipping_method: Shipping Method
+    shipping_method: Sendingarmáti
     shipping_methods: Shipping Methods
     shipping_price_sack: Price sack
     shipping_rates:
@@ -1329,7 +1339,7 @@ is:
       complete: Complete
       completed: Completed
       closed: Closed
-      delivery: Delivery
+      delivery: Afhending
       errored: Errored
       failed: Failed
       given_to_customer: Given to customer
@@ -1394,7 +1404,7 @@ is:
       select_one_store_credit: "Select store credit to go towards remaining balance"
     street_address: Street Address
     street_address_2: Street Address (cont'd)
-    subtotal: Subtotal
+    subtotal: Samtals vörur
     subtract: Subtract
     success: Success
     successfully_created: ! '%{resource} has been successfully created!'
@@ -1443,7 +1453,7 @@ is:
     tiered_percent: Tiered Percent
     time: Time
     to_add_variants_you_must_first_define: To add variants, you must first define
-    total: Total
+    total: Samtals
     total_per_item: Total per item
     total_pre_tax_refund: Total Pre-Tax Refund
     total_price: Total price
@@ -1470,7 +1480,7 @@ is:
     updating: Updating
     usage_limit: Usage Limit
     use_app_default: Use App Default
-    use_billing_address: Use Billing Address
+    use_billing_address: Nota heimilisfang greiðanda
     use_existing_cc: Use an existing card on file
     use_new_cc: Use a new card
     use_new_cc_or_payment_method: Use a new card / payment method
@@ -1507,4 +1517,4 @@ is:
     zone: Zone
     zones: Zones
     
-    
+  state: Fylki/Ríki  
