@@ -40,8 +40,8 @@ is:
         name: Name
         presentation: Presentation
       spree/order:
-        checkout_complete: Pöntun send
-        completed_at: Pöntun send
+        checkout_complete: Pöntun kláruð 
+        completed_at: Pöntun gerð
         coupon_code: Afsláttar kóði
         created_at: Dagsetning pöntunar
         email: Netfang viðskiptavinar
@@ -357,6 +357,7 @@ is:
     add_new_shipping_address: Bæta við viðtakanda
     edit_shipping_address: Breyta heimilisfangi viðtakanda
     shipping_addresses: Heimilisföng viðtakanda
+    other_address: Bæta við nýju heimilisfangi viðtakanda
      
   devise:
     confirmations:
@@ -537,7 +538,7 @@ is:
     are_you_sure_delete: Are you sure you want to delete this record?
     associated_adjustment_closed: The associated adjustment is closed, and will not be recalculated. Do you want to open it?
     at_symbol: '@'
-    authorization_failure: Authorization Failure
+    authorization_failure: Auðkenning mistókst
     authorized: Authorized
     auto_capture: Auto Capture
     available_on: Available On
@@ -1288,7 +1289,7 @@ is:
     shipment_transfer_error: 'There was an error transferring variants'
     shipments: Shipments
     shipped: Shipped
-    shipping: Shipping
+    shipping: Shipping1
     shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
