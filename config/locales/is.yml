@@ -3,7 +3,7 @@ is:
     attributes:
       spree/address:
         address1: Heimilisfang
-        address2: Nánari upplýsingar (Hæð/bjalla o.s.frv.)
+        address2: Nánari upplýsingar (Hæð/bjalla o.þ.h.)
         city: Sveitarfélag
         country: Land
         firstname: Fornafn
@@ -556,7 +556,7 @@ is:
     backorderable: Backorderable
     backorderable_default: Backorderable default
     backorders_allowed: backorders allowed
-    balance_due: Balance Due
+    balance_due: Ógreitt
     base_amount: Base Amount
     base_percent: Base Percent
     bill_address: Bill Address
@@ -978,7 +978,7 @@ is:
     or: eða
     or_over_price: ! '%{price} or over'
     order: Order
-    order_adjustments: Sundurliðun ofl. 
+    order_adjustments: Sundurliðun, aukagjöld o.fl. 
     order_already_updated: Pöntunin hefur nú þegar verið uppfærð
     order_approved: Order approved
     order_canceled: Order canceled
@@ -1000,7 +1000,7 @@ is:
         order_summary: Order %{number} Summary
         subject: Order Confirmation
         thanks: Thank you for your business.
-    order_not_found: We couldn't find your order. Please try that action again.
+    order_not_found: Pöntunin þín fannst ekki. Vinsamlegast reyndu aftur.
     order_number: Order %{number}
     order_processed_successfully: Your order has been processed successfully
     order_resumed: Order resumed
@@ -1010,7 +1010,7 @@ is:
       canceled: canceled
       cart: BOXIÐ þitt
       considered_risky: considered risky
-      complete: complete2
+      complete: Staðfesting
       confirm: confirm
       delivery: delivery
       payment: payment
@@ -1043,13 +1043,13 @@ is:
     payment_processor_choose_link: our payments page
     payment_state: Staða greiðslu 
     payment_states:
-      balance_due: balance due
+      balance_due: balance due1
       checkout: checkout
       completed: completed
       credit_owed: credit owed
       failed: failed
-      paid: paid
-      pending: pending
+      paid: paid1
+      pending: pending1
       processing: processing
       void: void
     payment_updated: Payment Updated
@@ -1078,7 +1078,7 @@ is:
     process: Process
     product: Product
     product_details: Product Details
-    product_has_no_description: This product has no description
+    product_has_no_description: Vörulýsingu vantar
     product_not_available_in_this_currency: This product is not available in the selected currency.
     product_properties: Product Properties
     product_rule:
@@ -1282,14 +1282,14 @@ is:
       backorder: backorder
       canceled: canceled
       partial: partial
-      pending: pending
-      ready: ready
+      pending: pending2
+      ready: ready1
       shipped: shipped
     shipment_transfer_success: 'Variants successfully transferred'
     shipment_transfer_error: 'There was an error transferring variants'
     shipments: Shipments
     shipped: Shipped
-    shipping: Shipping1
+    shipping: Sendingarmáti
     shipping_address: Heimilisfang viðtakanda
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
