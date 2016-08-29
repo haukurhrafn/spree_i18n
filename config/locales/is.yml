@@ -54,6 +54,7 @@ is:
         state: Staða
         total: Samtals
         considered_risky: Áhætta
+        delivery_date: Afhendingardagur og tími
       spree/order/bill_address:
         address1: Heimilisfang greiðanda
         city: Sveitarfélag greiðanda
@@ -647,7 +648,7 @@ is:
     credit: Credit
     credit_card: Credit Card
     credit_cards: Credit Cards
-    credit_owed: Credit Owed
+    credit_owed: Inneign
     credited: Credited
     credits: Credits
     currency: Currency
@@ -860,7 +861,7 @@ is:
     logs: "Logs"
     logged_in_as: Logged in as
     logged_in_succesfully: Innskráning tókst
-    logged_out: Þú hefur afskráð þig. 
+    logged_out: Þú hefur útskráð þig. 
     login: Innskráning
     login_as_existing: Nú þegar notandi. Skráðu þig inn hér
     login_failed: Ekki tókst að skrá þig inn. 
@@ -1043,12 +1044,12 @@ is:
     payment_processor_choose_link: our payments page
     payment_state: Staða greiðslu 
     payment_states:
-      balance_due: balance due1
+      balance_due: Ógreitt
       checkout: checkout
       completed: completed
       credit_owed: credit owed
       failed: failed
-      paid: paid1
+      paid: Greitt
       pending: pending1
       processing: processing
       void: void
@@ -1282,8 +1283,8 @@ is:
       backorder: backorder
       canceled: canceled
       partial: partial
-      pending: pending2
-      ready: ready1
+      pending: Í vinnslu
+      ready: Tilbúin
       shipped: shipped
     shipment_transfer_success: 'Variants successfully transferred'
     shipment_transfer_error: 'There was an error transferring variants'
