@@ -4,3 +4,4 @@ Spree.fetch_cart = ->
     cache: false,
     success: (data) ->
       $('#link-to-cart').html data
+      $('#link-to-cart2').html data
