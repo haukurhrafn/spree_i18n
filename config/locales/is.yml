@@ -359,7 +359,7 @@ is:
     edit_shipping_address: Breyta heimilisfangi viðtakanda
     shipping_addresses: Heimilisföng viðtakanda
     other_address: Bæta við nýju heimilisfangi viðtakanda
-     
+
   devise:
     confirmations:
       confirmed: Aðgangur þinn hefur verið staðfestur. Innskráning tókst. 
@@ -407,7 +407,10 @@ is:
             send_instructions: Upplýsingar um hvernig endursetja eigi lykilorð hafa verið sendar í tölvupósti
     sessions:
         spree_user:
-            signed_out: Þú ert núna útskráður
+            signed_out: Þú ert nú þegar útskráður
+    registrations:
+        spree_user:
+            signed_up: Nýskráning tókst        
 
   errors:
     messages:
@@ -552,7 +555,7 @@ is:
     back_to_resource_list: 'Back To %{resource} List'
     back_to_payment: Back To Payment
     back_to_rma_reason_list: Back To RMA Reason List
-    back_to_store: Go Back To Store
+    back_to_store: Aftur að versla
     back_to_users_list: Back To Users List
     backorderable: Backorderable
     backorderable_default: Backorderable default
@@ -579,8 +582,8 @@ is:
     cannot_set_shipping_method_without_address: Cannot set shipping method until customer details are provided.
     capture: Capture
     capture_events: Capture events
-    card_code: Card Code
-    card_number: Card Number
+    card_code: CVV kóði
+    card_number: Kortanúmer
     card_type: Brand
     card_type_is: Card type is
     cart: BOXIÐ ÞITT
@@ -631,7 +634,7 @@ is:
       US: United States of America
     coupon: Coupon
     coupon_code: Coupon code
-    coupon_code_already_applied: The coupon code has already been applied to this order
+    coupon_code_already_applied: Þú hefur nú þegar nýtt þér þennan afsláttarkóða
     coupon_code_applied: The coupon code was successfully applied to your order.
     coupon_code_better_exists: The previously applied coupon code results in a better deal
     coupon_code_expired: The coupon code is expired
@@ -753,7 +756,7 @@ is:
     exchange_for: Exchange for
     expedited_exchanges_warning: "Any specified exchanges will ship to the customer immediately upon saving. The customer will be charged the full amount of the item if they do not return the original item within %{days_window} days."
     excl: excl.
-    expiration: Expiration
+    expiration: Gildistími
     extension: Extension
     existing_shipments: Existing shipments
     failed_payment_attempts: Failed Payment Attempts
@@ -781,7 +784,7 @@ is:
     google_analytics: Google Analytics
     google_analytics_id: Analytics ID
     guest_checkout: Guest Checkout
-    guest_user_account: Checkout as a Guest
+    guest_user_account: Klára pöntun án innskráningar
     has_no_shipped_units: has no shipped units
     height: Height
     home: Home
@@ -839,7 +842,7 @@ is:
         gte: greater than or equal to
         lt: less than
         lte: less than or equal to
-    items_cannot_be_shipped: We are unable to calculate shipping rates for the selected items.
+    items_cannot_be_shipped: Ekki tókst að reikna út sendingakostnað fyrir valdar vörur. 
     items_in_rmas: Items in Return Authorizations
     items_to_be_reimbursed: Items to be reimbursed
     items_reimbursed: Items reimbursed
@@ -894,7 +897,7 @@ is:
     my_account: Mín síða
     my_orders: Pantanirnar mínar
     name: Name
-    name_on_card: Name on card
+    name_on_card: Nafn korthafa
     name_or_sku: Name or SKU (enter at least first 3 characters of product name)
     new: New
     new_adjustment: New Adjustment
@@ -1003,7 +1006,7 @@ is:
         thanks: Thank you for your business.
     order_not_found: Pöntunin þín fannst ekki. Vinsamlegast reyndu aftur.
     order_number: Order %{number}
-    order_processed_successfully: Your order has been processed successfully
+    order_processed_successfully: Pöntunin er móttekin!
     order_resumed: Order resumed
     order_state:
       address: address
@@ -1092,7 +1095,7 @@ is:
         group: From product group
         manual: Manually choose
     products: Products
-    promotion: Promotion
+    promotion: Afsláttur
     promotionable: Promotable
     promotion_action: Promotion Action
     promotion_action_types:
@@ -1173,7 +1176,7 @@ is:
     refunds: Refunds
     refund_amount_must_be_greater_than_zero: Refund amount must be greater than zero
     register: Register
-    registration: Registration
+    registration: Nýskráning
     reimburse: Reimburse
     reimbursed: Reimbursed
     reimbursement: Reimbursement
@@ -1246,7 +1249,7 @@ is:
     say_yes: 'Yes'
     scope: Scope
     search: Search
-    search_results: Search results for '%{keywords}'
+    search_results: Leitarniðurstöður fyrir '%{keywords}'
     searching: Searching
     secure_connection_type: Secure Connection Type
     security_settings: Security Settings
@@ -1273,7 +1276,7 @@ is:
         dear_customer: Ágæti viðskiptavinur,
         instructions: Pöntun þín númer %{number} hefur verið send
         shipment_summary: Sendingar yfirlit fyrir pöntun
-        shipping_method: "Sendingarmát: %{shipping_method}"
+        shipping_method: "Sendingarmáti: %{shipping_method}"
         subject: Sendingar tilkynning
         thanks: Takk fyrir viðskiptin
         track_information: ! 'Upplýsingar um stöðu sendingar: %{tracking}'
@@ -1305,7 +1308,7 @@ is:
       display_price:
         including_tax: "%{price} (incl. %{tax_amount} %{tax_rate_name})"
         excluding_tax: "%{price} (+ %{tax_amount} %{tax_rate_name})"
-    shipping_total: Shipping total
+    shipping_total: Sendingakostnaður
     shop_by_taxonomy: Shop by %{taxonomy}
     shopping_cart: Boxið þitt
     show: Show
