@@ -723,7 +723,7 @@ is:
         no_user_or_email_specified: You need to login or provide your email before applying this coupon code.
         no_user_specified: You need to login before applying this coupon code.
         not_first_order: This coupon code can only be applied to your first order.
-    email: Email
+    email: Netfang
     empty: Tómt
     empty_cart: Tæma BOXIÐ þitt
     enable_mail_delivery: Enable Mail Delivery
@@ -991,8 +991,8 @@ is:
     order_information: Order Information
     order_line_items: Order Line Items
     order_mailer:
-      subtotal: ! 'Subtotal:'
-      total: ! 'Order Total:'
+      subtotal: ! 'Samtals vörur:'
+      total: ! 'Samtals pöntun:'
       cancel_email:
         dear_customer: Dear Customer,
         instructions: Your order has been CANCELED.  Please retain this cancellation information for your records.
@@ -1000,24 +1000,24 @@ is:
         subject: Cancellation of Order
       confirm_email:
         dear_customer: Dear Customer,
-        instructions: Please review and retain the following order information for your records.
-        order_summary: Order %{number} Summary
-        subject: Order Confirmation
-        thanks: Thank you for your business.
+        instructions: Sjá fyrir neðan staðfestingu á vörum sem þú pantaðir á BOXID.is.
+        order_summary: Samantekt á pöntun %{number}
+        subject: Pöntunarstaðfesting
+        thanks: Takk fyrir viðskiptin
     order_not_found: Pöntunin þín fannst ekki. Vinsamlegast reyndu aftur.
     order_number: Order %{number}
     order_processed_successfully: Pöntunin er móttekin!
     order_resumed: Order resumed
     order_state:
-      address: address
+      address: Heimilisfang
       awaiting_return: awaiting return
-      canceled: canceled
+      canceled: Hætt við
       cart: BOXIÐ þitt
-      considered_risky: considered risky
+      considered_risky: Talið áhættusamt
       complete: Staðfesting
-      confirm: confirm
-      delivery: delivery
-      payment: payment
+      confirm: Staðfesta
+      delivery: Afhending
+      payment: Greiðsla
       resumed: resumed
       returned: returned
     order_summary: Samantekt á pöntun
@@ -1025,7 +1025,7 @@ is:
     order_total: Samtals
     order_updated: Order Updated
     orders: Orders
-    out_of_stock: Out of Stock
+    out_of_stock: Uppselt
     overview: Overview
     package_from: Sending frá
     pagination:
@@ -1038,7 +1038,7 @@ is:
     pay: pay
     payment: Payment
     payment_could_not_be_created: Payment could not be created.
-    payment_information: Payment Information
+    payment_information: Greiðslu upplýsingar
     payment_method: Payment Method
     payment_methods: Payment Methods
     payment_method_not_supported: That payment method is unsupported. Please choose another one.
@@ -1195,7 +1195,7 @@ is:
     reports: Reports
     resellable: Resellable
     resend: Resend
-    reset_password: Reset my password
+    reset_password: Endursetja lykilorð
     response_code: Response Code
     resume: resume
     resumed: Resumed
@@ -1310,7 +1310,7 @@ is:
         excluding_tax: "%{price} (+ %{tax_amount} %{tax_rate_name})"
     shipping_total: Sendingakostnaður
     shop_by_taxonomy: Shop by %{taxonomy}
-    shopping_cart: Boxið þitt
+    shopping_cart: Í BOXINU
     show: Show
     show_active: Show Active
     show_deleted: Show Deleted
@@ -1324,7 +1324,7 @@ is:
     source: Source
     special_instructions: Special Instructions
     split: Split
-    spree_gateway_error_flash_for_checkout: There was a problem with your payment information. Please check your information and try again.
+    spree_gateway_error_flash_for_checkout: Upp kom vandamál með greiðslu upplýsingarnar. Reyndu aftir eftir að hafa yfirfarið upplýsingarnar. 
     ssl:
       change_protocol: "Please switch to using HTTP (rather than HTTPS) and retry this request."
     start: Start
@@ -1445,11 +1445,11 @@ is:
     test: Test
     test_mailer:
       test_email:
-        greeting: Congratulations!
+        greeting: Til hamingju!
         message: If you have received this email, then your email settings are correct.
         subject: Test Mail
     test_mode: Test Mode
-    thank_you_for_your_order: Thank you for your business.  Please print out a copy of this confirmation page for your records.
+    thank_you_for_your_order: Takk fyrir viðskiptin.
     there_are_no_items_for_this_order: There are no items for this order. Please add an item to the order to continue.
     there_were_problems_with_the_following_fields: There were problems with the following fields
     this_order_has_already_received_a_refund: This order has already received a refund
