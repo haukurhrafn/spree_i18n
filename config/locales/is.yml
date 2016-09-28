@@ -586,7 +586,7 @@ is:
     card_number: Kortanúmer
     card_type: Brand
     card_type_is: Card type is
-    cart: BOXIÐ ÞITT
+    cart: Í BOXINU
     cart_subtotal:
       one: 'Samtals (1 stk.)'
       other: 'Samtals (%{count} stk.)'
@@ -1321,7 +1321,7 @@ is:
     sku: SKU
     skus: SKUs
     slug: Slug
-    source: Source
+    source: Uppruni
     special_instructions: Special Instructions
     split: Split
     spree_gateway_error_flash_for_checkout: Upp kom vandamál með greiðslu upplýsingarnar. Reyndu aftir eftir að hafa yfirfarið upplýsingarnar. 
