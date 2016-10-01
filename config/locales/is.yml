@@ -187,8 +187,8 @@ is:
         one: Option Value
         other: Option Values
       spree/order:
-        one: Order
-        other: Orders
+        one: Pöntun
+        other: Pantanir
       spree/payment:
         one: Payment
         other: Payments
@@ -196,8 +196,8 @@ is:
         one: Payment Method
         other: Payment Methods
       spree/product:
-        one: Product
-        other: Products
+        one: Vara
+        other: Vörur
       spree/promotion:
         one: Promotion
         other: Promotions
@@ -728,7 +728,7 @@ is:
     empty_cart: Tæma BOXIÐ þitt
     enable_mail_delivery: Enable Mail Delivery
     end: End
-    ending_in: Ending in
+    ending_in: Endar á
     error: error
     errors:
       messages:
@@ -787,7 +787,7 @@ is:
     guest_user_account: Klára pöntun án innskráningar
     has_no_shipped_units: has no shipped units
     height: Height
-    home: Home
+    home: Heim
     i18n:
       available_locales: Available Locales
       fields: Fields
@@ -1063,8 +1063,8 @@ is:
     permalink: Permalink
     pending: Pending
     pending_sale: Pending Sale
-    phone: Phone
-    place_order: Place Order
+    phone: Sími
+    place_order: Staðfesta pöntun
     please_define_payment_methods: Please define some payment methods first.
     please_enter_reasonable_quantity: Please enter a reasonable quantity.
     populate_get_error: Something went wrong. Please try adding the item again.
@@ -1094,7 +1094,7 @@ is:
       product_source:
         group: From product group
         manual: Manually choose
-    products: Products
+    products: Vörur
     promotion: Afsláttur
     promotionable: Promotable
     promotion_action: Promotion Action
@@ -1291,7 +1291,7 @@ is:
       shipped: shipped
     shipment_transfer_success: 'Variants successfully transferred'
     shipment_transfer_error: 'There was an error transferring variants'
-    shipments: Shipments
+    shipments: Sending
     shipped: Shipped
     shipping: Sendingarmáti
     shipping_address: Heimilisfang viðtakanda
@@ -1487,9 +1487,9 @@ is:
     usage_limit: Usage Limit
     use_app_default: Use App Default
     use_billing_address: Nota heimilisfang greiðanda
-    use_existing_cc: Use an existing card on file
-    use_new_cc: Use a new card
-    use_new_cc_or_payment_method: Use a new card / payment method
+    use_existing_cc: Greiða með skráðu korti
+    use_new_cc: Greiða með nýju korti
+    use_new_cc_or_payment_method: Greiða með nýju korti eða öðrum greiðslumáta
     use_s3: Use Amazon S3 For Images
     used: Used
     user: User
@@ -1515,12 +1515,12 @@ is:
     what_is_this: Hvað er þetta?
     width: Width
     year: Year
-    you_have_no_orders_yet: You have no orders yet
+    you_have_no_orders_yet: Þú hefur ekki pantað
     your_cart_is_empty: BOXIÐ þitt er tómt
     your_order_is_empty_add_product: Your order is empty, please search for and add a product above
     zip: Zip
-    zipcode: Zip Code
+    zipcode: Póstnúmer
     zone: Zone
     zones: Zones
     
-  state: Fylki/Ríki  
+  state: Fylki/Ríki
