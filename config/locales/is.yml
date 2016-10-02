@@ -692,7 +692,7 @@ is:
     deleted: Deleted
     delete_from_taxon: Delete From Taxon
     discontinued_variants_present: Some line items in this order have products that are no longer available.
-    delivery: Delivery
+    delivery: Afhending
     depth: Depth
     details: Nánar
     description: Description
@@ -994,14 +994,14 @@ is:
       subtotal: ! 'Samtals vörur:'
       total: ! 'Samtals pöntun:'
       cancel_email:
-        dear_customer: Dear Customer,
-        instructions: Your order has been CANCELED.  Please retain this cancellation information for your records.
-        order_summary_canceled: Order %{number} Summary [CANCELED]
-        subject: Cancellation of Order
+        dear_customer: Kæri viðskiptavinur,
+        instructions: Hætt við pöntun.
+        order_summary_canceled: Pöntun %{number} Samantekt [Hætt við]
+        subject: Hætt við pöntun
       confirm_email:
-        dear_customer: Dear Customer,
+        dear_customer: Kæri viðskiptavinur,
         instructions: Sjá fyrir neðan staðfestingu á vörum sem þú pantaðir á BOXID.is.
-        order_summary: Samantekt á pöntun %{number}
+        order_summary: Samantekt á pöntun
         subject: Pöntunarstaðfesting
         thanks: Takk fyrir viðskiptin
     order_not_found: Pöntunin þín fannst ekki. Vinsamlegast reyndu aftur.
