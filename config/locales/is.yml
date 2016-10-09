@@ -707,7 +707,7 @@ is:
     edit: Breyta
     editing_resource: 'Editing %{resource}'
     editing_rma_reason: Editing RMA Reason
-    editing_user: Editing User
+    editing_user: Breyta netfangi eða lykilorði
     eligibility_errors:
       messages:
         has_excluded_product: Your cart contains a product that prevents this coupon code from being applied.
@@ -807,7 +807,7 @@ is:
     implement_requires_manual_intervention: "Must implement #requires_manual_intervention? for your EligibilityValidator."
     inactive: Inactive
     incl: innif.
-    included_in_price: Innifalið
+    included_in_price: Þar af
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete: Incomplete
     info_product_has_multiple_skus: "This product has %{count} variants:"
@@ -1259,7 +1259,7 @@ is:
     select_a_stock_location: Select a stock location
     select_a_store_credit_reason: Select a reason for the store credit
     select_stock: Select stock
-    selected_quantity_not_available: ! 'selected of %{item} is not available.'
+    selected_quantity_not_available: ! 'sem valið var af %{item} er ekki til. Prófaðu að velja minna magn.'
     send_copy_of_all_mails_to: Send Copy of All Mails To
     send_mails_as: Send Mails As
     server: Server
@@ -1274,7 +1274,7 @@ is:
     shipment_mailer:
       shipped_email:
         dear_customer: Ágæti viðskiptavinur,
-        instructions: Pöntun þín númer %{number} hefur verið send
+        instructions: Pöntun þín hefur verið send af stað.
         shipment_summary: Sendingar yfirlit fyrir pöntun
         shipping_method: "Sendingarmáti: %{shipping_method}"
         subject: Sendingar tilkynning
