@@ -612,7 +612,7 @@ is:
     complete: complete3
     configuration: Configuration
     configurations: Configurations
-    confirm: Staðfesta
+    confirm: Yfirfara
     confirm_delete: Staðfesta eyðingu
     confirm_password: Staðfesta lykilorð
     continue: Áfram
